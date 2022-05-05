@@ -151,3 +151,80 @@ nav a{
   padding: 60px 20px;
   font-weight: bold;
 }
+
+.preco{
+  background: #f7f7f7;
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.precoItem{
+  flex: 1 1 260px;
+  border: 4px solid #fff;
+  padding: 20px;
+  margin: 10px;
+}
+.precoItem h2{
+ font-size: 3em;
+ color: #a4a4a4;
+ text-align: center;
+ margin-top: 20px;
+}
+.precoItem span{
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0 5px 0;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+}
+
+.precoItem sup{
+ font-size: 1.5rem;
+}
+
+.precoItem ul{
+  max-width: 300px;
+  margin: 20px auto;
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #7c7c7c;
+}
+.precoItem li{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 15px;
+}
+.precoItem li::after{
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #2c70ff;
+ }
+
+ .precoItem a {
+  max-width: 300px;
+  margin: 20px auto;
+  border: 5px solid;
+  color: #222;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 15px 0;
+  text-align: center;
+  display: block;
+ }
+
+ @media (max-width: 800px) {
+	.preco {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
