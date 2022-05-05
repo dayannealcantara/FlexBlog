@@ -53,15 +53,41 @@ nav{
 nav a{
  text-decoration: none;
   color: #fff;
- font-size: 1.25rem; 
+  font-size: 1.25rem; 
 } 
-
-.sobre{
-  display: flex;
-  gap: 40px;
+.introducao{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px ;
+  font-size: 3rem;
+  line-height: 1;
 }
 
+.sobre{
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 60px 0;
+  border-top: 2px solid #2c70ff;
+  border-bottom: 2px solid #2c70ff;
+}
+.sobreLeft{
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+.sobreLeft h2{
+  font-size: 3rem;
+  margin-bottom: .5rem;
+}
+.sobreLeft p{
+  font-size: 1.25rem;
+  margin-bottom: 1em;
+  line-height: 1.4;
+  color: #7c7c7c;
+}
 .imagensSobre{
   display: flex;
   align-items: flex-start;
+  margin: 0 10px;
 }
